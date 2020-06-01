@@ -1,4 +1,4 @@
-﻿namespace UniConstStringCodeGenerator
+﻿namespace Kogane
 {
 	/// <summary>
 	/// 文字列の定数のコードを生成する時のオプションを管理するクラス

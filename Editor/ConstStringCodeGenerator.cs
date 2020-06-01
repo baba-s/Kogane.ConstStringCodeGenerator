@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using System.Text;
 
-namespace UniConstStringCodeGenerator
+namespace Kogane
 {
 	/// <summary>
 	/// 文字列の定数のコードを生成するクラス
