@@ -1,4 +1,4 @@
-# Uni Const String Code Generator
+﻿# Uni Const String Code Generator
 
 文字列の定数のコードを生成するエディタ拡張
 
@@ -7,7 +7,7 @@
 ### JobType 型のコードを生成するエディタ拡張
 
 ```cs
-using UniConstStringCodeGenerator;
+using Kogane;
 using UnityEditor;
 
 public class Example
