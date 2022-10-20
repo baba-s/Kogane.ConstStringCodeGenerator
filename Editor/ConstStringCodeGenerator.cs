@@ -68,7 +68,13 @@ namespace Kogane
             output = output.Replace( TAG_LENGTH, length.ToString() );
             output = output.Replace( TAG_GET_VALUES_CONTENTS, getValuesContents );
 
-            return output;
+            return output
+                    .Replace( "\t", "    " )
+                    .Replace( "\r\n", "#NEW_LINE#" )
+                    .Replace( "\r", "#NEW_LINE#" )
+                    .Replace( "\n", "#NEW_LINE#" )
+                    .Replace( "#NEW_LINE#", "\r\n" )
+                ;
         }
 
         /// <summary>
