@@ -1,4 +1,4 @@
-﻿# Uni Const String Code Generator
+﻿# Kogane Const String Code Generator
 
 文字列の定数のコードを生成するエディタ拡張
 
